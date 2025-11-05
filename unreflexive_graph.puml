@@ -1,0 +1,20 @@
+@startuml
+!pragma layout smetana
+
+title Unreflexive Graph
+
+circle "0" as V0
+circle "1" as V1
+circle "2" as V2
+circle "3" as V3
+circle "4" as V4
+
+V0 --> V1
+V0 --> V4
+V1 --> V2
+V1 --> V3
+V2 --> V3
+V3 --> V4
+V4 --> V0
+
+@enduml
