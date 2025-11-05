@@ -1,0 +1,9 @@
+@startuml
+!pragma layout smetana
+
+title Reflexive Graph
+
+(0) -- (1)
+(1) -- (2)
+
+@enduml
